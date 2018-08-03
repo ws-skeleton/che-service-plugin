@@ -1,0 +1,8 @@
+{
+  "scripts": {
+      "start": "yarn run json-server db.json --port 8080 --host 0.0.0.0"
+  },
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}
