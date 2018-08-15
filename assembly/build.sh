@@ -13,6 +13,8 @@ if [ ! -f ../ui/che_ui_service_plugin.theia ]; then
 fi
 
 tar cvf che-service-plugin.tar -C ../ui che_ui_service_plugin.theia
-tar uvf che-service-plugin.tar etc
+cd etc
+tar uvf ../che-service-plugin.tar .
+cd ..
 gzip che-service-plugin.tar
 
