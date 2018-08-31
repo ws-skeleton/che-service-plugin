@@ -7,7 +7,7 @@ import * as request from 'request-promise-native';
 
 export function start() {
 
-    const URL_SERVER = 'http://hello-ls:8080';
+    const URL_SERVER = 'http://hello-ls:8080/users';
 
     const listUsersCommand = {
         id: 'che-ui-service-list-users',
